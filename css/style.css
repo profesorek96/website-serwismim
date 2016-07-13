@@ -14,10 +14,18 @@ p {font-size: 16px;}
       padding-bottom: 70px;
   }
 
+.margin{
+	
+	color:#000000;
+}
 
+.onas{
 
+}
 
-
+.kontakt{
+	background-color: #D2EAE6;
+}
 
    .stopka { 
       background-color: #2f2f2f; /* Black Gray */
