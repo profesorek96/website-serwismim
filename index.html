@@ -20,12 +20,33 @@
     <![endif]-->
   </head>
   <body>
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+     <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Do Góry</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#o-nas">O Nas</a></li>
+        <li><a href="#zakres">Zakres pracy</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
  
       <div class="container-fluid naglowek">
               <a href="index.html"><img src="img/header.png" class="img-responsive"  style="display: block; margin: 0 auto;" alt="naglowek mim serwis s.c"></a>
       </div>
 
-      <div class="container-fluid onas ">
+      <div id="o-nas" class="container-fluid onas ">
         <h2 class="margin text-center"><b>O Nas</b></h2>
         <h3 class="margin text-center"><b>Witam na stronie firmy MiM Serwis</b></h3>
         <p class="text-center">
@@ -40,7 +61,7 @@
 
 
       </div>
-      <div class="container-fluid zakrespracy">
+      <div id="zakres" class="container-fluid zakrespracy">
         <h2 class="margin text-center"><b>Zajmujemy się następującymi grupami urządzeń:</b></h2>
         <h3 class="margin text-center"><b>Urządzenia do obsługi klimatyzacji</b></h3>
         <p class="text-center">-przeglądy: wymiany filtrów R134a,oleju w pompach próżniowych, kalibracje wag oraz czujników,<br> 
@@ -219,7 +240,7 @@ Serdecznie zapraszamy do współpracy.
 
 
 
-      <div class="container-fluid kontakt">
+      <div id="kontakt" class="container-fluid kontakt">
         <h2 class="margin text-center"><b>Kontakt</b></h2>
         <h3 class="margin text-center"><b>MiM Serwis s.c.</b></h3>
         <p class="text-center">
