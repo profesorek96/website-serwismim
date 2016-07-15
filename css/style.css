@@ -10,7 +10,7 @@ p {
 .margin {margin-bottom: 45px;}
 
 .naglowek{
-	background-color: #7f7f7f;
+	background-color: #C1C2B2;
 }
  .container-fluid {
       padding-top: 70px;
@@ -23,14 +23,20 @@ p {
 }
 
 .onas{
-	background-color: #F7FF00;
+	background-color: #E8E2BE;
 }
 
 .kontakt{
 	background-color: #D2EAE6;
 }
 
-   .stopka { 
-      background-color: #2f2f2f; /* Black Gray */
-      color: #fff;
-  }
+
+
+.glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+}
+.stopka { 
+      background-color: #000000;
+}
