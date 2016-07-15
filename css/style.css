@@ -44,7 +44,7 @@ p {
 
 .navbar {
     margin-bottom: 0;
-    background-color: #f4511e;
+    background-color: #000000;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -58,7 +58,7 @@ p {
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #f4511e !important;
+    color: #000000 !important;
     background-color: #fff !important;
 }
 
