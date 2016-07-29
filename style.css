@@ -66,3 +66,29 @@ p {
     border-color: transparent;
     color: #fff !important;
 }
+
+
+
+
+#intro{
+    background:url(img/Car-repair-shop.jpg) 50% 0 no-repeat fixed;
+    color: white;
+    height: 600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+.story{
+    margin: 0 auto;
+    min-width: 980px;
+    overflow: auto;
+    width: 980px;
+}
+
+.story .float-left, .story .float-right{
+    padding: 100px 0 0 0;
+    position: relative;
+    width: 350px;   
+}
