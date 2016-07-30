@@ -10,6 +10,7 @@ p {
 .margin {margin-bottom: 45px;}
 
 .naglowek{
+    padding-top: 40px;
 	background-color: #238E23;
 }
  .container-fluid {
@@ -91,4 +92,9 @@ p {
     padding: 100px 0 0 0;
     position: relative;
     width: 350px;   
+}
+
+.nazwa-firmy{
+    padding: 100px;
+
 }
