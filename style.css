@@ -12,6 +12,7 @@ p {
 .naglowek{
     padding-top: 40px;
 	background-color: #238E23;
+
 }
  .container-fluid {
       padding-top: 70px;
@@ -97,4 +98,47 @@ p {
 .nazwa-firmy{
     padding: 100px;
 
+}
+
+
+.w3-center{
+    text-align:center!important;
+}
+
+.w3-padding-xlarge{
+    padding:16px 32px!important;
+}
+
+.w3-black,.w3-hover-black:hover{
+    color:#fff!important;background-color:#000!important;
+}
+
+.w3-xlarge{
+    font-size:40px!important;
+    }
+.w3-xxlarge{
+    font-size:36px!important;
+}
+
+.w3-wide{
+    font-family:'Broadway BT';
+}
+
+.w3-animate-opacity{
+    -webkit-animation:opac 1.5s;
+    animation:opac 1.5s
+}
+
+.w3-display-middle{
+    position:absolute;top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+}
+
+@font-face {
+font-family: 'Broadway BT';
+font-style: normal;
+font-weight: normal;
+src: local('Broadway BT'), url('fonts/8094231822.woff') format('woff');
 }
