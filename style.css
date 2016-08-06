@@ -203,7 +203,7 @@ p {
   
 }
 
-@media only screen and (min-width: 550px) and (max-width: 1040px) {
+@media only screen and (min-width: 600px) and (max-width: 800px) {
     
     .w3-xlarge{
     font-size:55px!important;
@@ -217,6 +217,37 @@ p {
 
     .nazwa-firmy{
     padding: 100px;
+    }
+
+    .w3-display-middle{
+    position:absolute;top:45%;
+    }
+
+    .napisserwis{
+    font-size: 30px;
+}
+
+  
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1040px) {
+    
+    .w3-xlarge{
+    font-size:55px!important;
+    }
+
+    #intro{
+    height: 800px;
+    margin: 0 auto;
+    padding: 0;
+    }
+
+    .nazwa-firmy{
+    padding: 100px;
+    }
+
+      .w3-display-middle{
+    position:absolute;top:55%;
     }
 
     .napisserwis{
